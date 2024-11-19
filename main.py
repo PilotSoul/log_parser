@@ -111,7 +111,7 @@ class MainApp:
 
 
 if __name__ == "__main__":
-    csv_file = "files/sources_dataset.csv"
+    csv_file = "files/test_csv.csv"
     app = MainApp(csv_file, SourceColumns)
     preprocessed_df = app.run()
     path_to_write = "files/output.csv"
